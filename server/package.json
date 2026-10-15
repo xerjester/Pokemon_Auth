@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-auction-server",
+  "version": "1.0.0",
+  "description": "Pokemon Auction and Turn-Based Battle backend with FUKU smart contract",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/db/seed.js",
+    "seed:all": "node src/db/seed_all_1025_pokemons.js",
+    "migrate:fuku": "node src/db/migrate_fuku_transfers.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}

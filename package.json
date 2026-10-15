@@ -1,0 +1,13 @@
+{
+  "name": "pokemon-auction-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pokemon Auction & Battle Platform with Web3 FUKU Token",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "start": "node server/src/server.js",
+    "test:web3": "node server/test_web3_endpoints.js"
+  }
+}
